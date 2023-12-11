@@ -1,7 +1,3 @@
-#Copy and run this file and postStartCommand in docker 1/2
-docker cp <src-path> <container>:<dest-path> 
-
-
 #!/usr/bin/env bash
 
 until mysql -h db -u mariadb -pmariadb mariadb -e 'exit'; do

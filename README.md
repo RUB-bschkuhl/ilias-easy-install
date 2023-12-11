@@ -1,4 +1,4 @@
-# Ilias VSCode Dev Container
+# Ilias LMS in Docker
 
 1. [Docker installieren](#docker-installieren)
     1. [Windows](#windows-docker)
@@ -35,7 +35,7 @@ kann das Fenster geschlossen werden ❌
 #### Empfehlung macOS
 Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der VirtioFS Treiber aktiviert sein. Dieser findet sich in Docker Desktop unter *Settings -> Beta features -> Enable VirtioFS accelerated directory sharing*.
 
-## Installation von ILIAS via Terminal/Console  <a name="ilias">
+## Step-by-Step Installation von ILIAS via Terminal/Console  <a name="ilias">
 
 `docker cp postCreateCommand.sh ilias-frontend:/tmp/postCreateCommand.sh`
 
@@ -53,8 +53,7 @@ Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der V
 
 `bash postStartCommand.sh`
 
-* Zu erreichen unter
-* http://localhost:8080/ilias-8/
+Zu erreichen unter: http://localhost:8080/ilias-8/
 
 ## Anmeldung im ILIAS <a name="iliasuser">
 * Der default user nach einer Erst-Installation ist `root`, das zugehörige Passwort `homer`.
