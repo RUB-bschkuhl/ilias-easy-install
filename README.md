@@ -38,12 +38,19 @@ Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der V
 ## Installation von ILIAS via Terminal/Console  <a name="ilias">
 
 `docker cp postCreateCommand.sh ilias-frontend:/tmp/postCreateCommand.sh`
+
 `docker cp postStartCommand.sh ilias-frontend:/tmp/postStartCommand.sh`
+
 `docker cp php.ini ilias-frontend:/tmp/php.ini`
+
 `docker exec -it ilias-frontend /bin/bash`
+
 `echo 'ServerName localhost' >> /etc/apache2/apache2.conf `
+
 `cd /tmp/`
+
 `bash postCreateCommand.sh`
+
 `bash postStartCommand.sh`
 
 * Zu erreichen unter
