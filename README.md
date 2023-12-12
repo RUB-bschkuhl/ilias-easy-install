@@ -35,7 +35,7 @@ kann das Fenster geschlossen werden ❌
 #### Empfehlung macOS
 Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der VirtioFS Treiber aktiviert sein. Dieser findet sich in Docker Desktop unter *Settings -> Beta features -> Enable VirtioFS accelerated directory sharing*.
 
-## Step-by-Step Installation von ILIAS via Terminal/Console  <a name="ilias">
+## Step-by-Step Installation von ILIAS via Terminal/Console im Projektordner <a name="ilias">
 
 `docker compose up`
 
