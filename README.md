@@ -48,6 +48,10 @@ Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der V
 
 ## Step-by-Step Installation von ILIAS via Terminal/Console im Projektordner <a name="ilias">
 
+Im nächsten Schritt geht es um die tatsächliche Installation von ILIAS mittels dieses Repos. Hierzu wird zunächst der Quellcode lokal auf der ausführenden Maschine benötigt.
+Der Code kann dazu, auch ohne git, als Zip heruntergeladen werden. Oben rechts im Profil der Button "<> Code" -> Download ZIP.
+Nach dem entpacken der ZIP muss ein Terminal gestartet und in den Ordner navigiert werden.
+Danach sind die Befehle in der folgenden Reihenfolge auszuführen.
 
 `docker compose up`
 
@@ -67,10 +71,10 @@ Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der V
 
 `bash postStartCommand.sh`
 
-Zu erreichen unter: http://localhost:8080/ilias-8/
+Zu erreichen ist das lokale ILIAS LMS dann unter: http://localhost:8080/ilias-8/
 
 ## Anmeldung im ILIAS <a name="iliasuser">
 * Der default user nach einer Erst-Installation ist `root`, das zugehörige Passwort `homer`.
 
 ## Anmeldung im DB Container <a name="dbuser">
-* Nach der Installation kann die DB mit dem user `root` und Passwort `mariadb` aufgerufen werden.
+* Nach der Installation kann die DB mit dem user `root` und Passwort `mariadb` im Docker terminal des db-containers aufgerufen werden.
