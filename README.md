@@ -1,11 +1,22 @@
 # Ilias LMS in Docker
 
+0. [Sinn und Zweck](#sinn)
 1. [Docker installieren](#docker-installieren)
     1. [Windows](#windows-docker)
     2. [macOS](#macos-docker)
 2. [Installation von ILIAS](#ilias)
 3. [Anmeldung im ILIAS](#iliasuser)
 4. [Anmeldung in DB Container](#dbuser)
+
+## Sinn und Zweck <a name="sinn"></a>
+Dieses Repository dient als Basis für eine lokale ILIAS Installation die zu Testzwecken genutzt werden kann. Zugriff auf das Backend ist über die Verwendung von Docker möglich.
+Mit der Installation ist eine vollständige Nutzung von ILIAS mit Admin-Priviligien möglich.
+Zum aktuellen Zeitpunkt wird mit der Installation ILIAS 8 ausgeführt, eine Anpassung auf neuere und ältere Versionen von ILIAS kann in Kombination mit den Installationsfiles erfolgen.
+
+Zu Entwicklungszwecken empfiehlt sich die Nutzung des folgenden Repositories welches für lokale Entwicklugnszwecke konzipiert ist:
+https://github.com/MoodleNRW/ilias-vscode-dev-container
+
+Folgende Schitte sind bei der Installation zu befolgen:
 
 ## Docker installieren <a name="docker-installieren"></a>
 
@@ -36,6 +47,7 @@ kann das Fenster geschlossen werden ❌
 Um die Performance von Docker unter macOS maßgeblich zu verbessern sollte der VirtioFS Treiber aktiviert sein. Dieser findet sich in Docker Desktop unter *Settings -> Beta features -> Enable VirtioFS accelerated directory sharing*.
 
 ## Step-by-Step Installation von ILIAS via Terminal/Console im Projektordner <a name="ilias">
+
 
 `docker compose up`
 
