@@ -53,7 +53,7 @@ Der Code kann dazu, auch ohne git, als Zip heruntergeladen werden. Oben rechts i
 Nach dem entpacken der ZIP muss ein Terminal gestartet und in den Ordner navigiert werden.
 Danach sind die Befehle in der folgenden Reihenfolge auszuführen.
 
-`docker compose up`
+`docker compose up -d`
 
 `docker cp postCreateCommand.sh ilias-frontend:/tmp/postCreateCommand.sh`
 
