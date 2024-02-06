@@ -73,6 +73,11 @@ Danach sind die Befehle in der folgenden Reihenfolge auszuführen.
 
 Zu erreichen ist das lokale ILIAS LMS dann unter: http://localhost:8080/ilias-8/
 
+Nachde die Befehle erfolgreich ausgeführt wurden ist die Docker Umgebung vollständig eingreichtet. Der Container kann dann entweder in der Docker Desktop Oberfläche oder über die Befehle im Projektordner gestartet oder gestoppt werden:
+
+Start: `docker compose up -d`
+Stop: `docker compose down`
+
 ## Anmeldung im ILIAS <a name="iliasuser">
 * Der default user nach einer Erst-Installation ist `root`, das zugehörige Passwort `homer`.
 
