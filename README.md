@@ -30,7 +30,7 @@ kann das Fenster geschlossen werden ❌
 
 ### macOS <a name="macos-docker">
 #### Variante 1: Docker Desktop für Mac mit brew installieren
-Ein elleganteter Weg zur Installation ist mit <a href="http://brew.sh">Homebrew</a> und <a href="http://caskroom.io/">Homebrew Cask</a>.
+Ein eleganteter Weg zur Installation ist mit <a href="http://brew.sh">Homebrew</a> und <a href="http://caskroom.io/">Homebrew Cask</a> möglich.
 ```bash
 brew install --cask docker     # Installiert Docker
 open /Applications/Docker.app  # Startet Docker
